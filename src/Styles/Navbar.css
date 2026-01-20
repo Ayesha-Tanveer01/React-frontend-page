@@ -1,0 +1,75 @@
+/* Navbar container */
+.navbar {
+  width: 90%;
+  max-width: 1100px;
+  margin-top: 5px;
+  margin-inline: 15px;
+  padding-left: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+
+/* Logo */
+.logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+}
+
+.logo-text{
+  font-size:larger;
+}
+
+.logo-img {
+  width: 25px;        /* smaller width */
+  height: 25px;       /* smaller height */
+  object-fit: contain;
+}
+
+/* Navigation links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;   /* reduce gap for compact look */
+}
+
+.nav-links li {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+  cursor: pointer;
+}
+
+.nav-links li:hover {
+  opacity: 0.7;
+}
+
+/* Request a quote button */
+.nav-btn {
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 500;
+
+  background-color: #ffffff;
+  color: #000;
+
+  border: 1px solid #000;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background-color: #000;
+  color: #fff;
+}

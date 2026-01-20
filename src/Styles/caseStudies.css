@@ -1,0 +1,51 @@
+.Header{
+    display:flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:center;
+    height:100px;
+    margin-top: 50px;
+    margin-inline:10px;
+    margin-left:20px;
+}
+
+.CaseStudy-Header{
+    background-color:rgb(157, 225, 88);
+    margin-inline: 20px;
+    color: darkgreen;
+    font-family: 'Nunito', system-ui, sans-serif ;
+    font-weight: 670;
+    font-size:23px;
+    padding:10px;
+    border-radius: 7px;
+}
+
+.CaseStudy-description{
+    margin-inline: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.Cases{
+    height: 160px;
+    background-color: #201f1f;
+    margin-left:35px;
+    border-radius: 20px;
+    border: 2px solid black;
+    border-bottom-width: 8px; 
+    display:flex;
+    flex-direction:row;
+}
+
+.Case1, .Case2, .Case3{
+    color:white;
+    padding:30px;
+    font-size:large;
+    text-align: left;
+}
+
+.vertical-line {
+  width: 2px;
+  height: 100px;
+  background-color: white;
+  margin:30px;
+}

@@ -1,0 +1,117 @@
+
+.card-container{
+    width:95%;
+    height: 500px;
+    display: flex; 
+    margin-inline: 45px;
+}
+
+.left-card,
+.right-card{
+    width: 50%;
+    height: 100%;
+}
+
+.left-card{
+    margin-right: 15px;
+}
+.right-card{
+    margin-left: 15px;
+}
+.upper-left-card,
+.upper-right-card{
+    margin-bottom: 25px;
+    border-radius: 25px;
+}
+.lower-left-card,
+.lower-right-card{
+    margin-top: 25px;
+    border-radius: 25px;
+}
+
+.upper-left-card,
+.lower-left-card,
+.upper-right-card,
+.lower-right-card{
+    height: 250px;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+}
+
+
+
+.upper-left-card{
+     background-color: white; 
+     border: 2px solid black;
+     border-bottom-width: 8px;
+    }
+.lower-left-card{
+     background-color: #201f1f; 
+     border: 2px solid black;
+     border-bottom-width: 8px;
+    }
+.upper-right-card{
+     background-color: #201f1f;
+     border: 2px solid black;
+     border-bottom-width: 8px; 
+    }
+.lower-right-card{ 
+    background-color: white; 
+    border: 2px solid black;
+    border-bottom-width: 8px;
+    }
+
+.img-upper-left-card, 
+.img-bottom-left-card,
+.img-upper-right-card,
+.img-bottom-right-card{
+    width: 100%;            
+    height: 100%;           
+    object-fit: cover; 
+    border-radius:22px;
+}
+.internal-left{
+    height:75%;
+    width:50%;
+    padding: 35px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.green-span{
+    background-color: rgb(157, 225, 88);
+    text-align: left;
+    padding:5px;
+    font-family: 'Nunito', system-ui, sans-serif ;
+    font-weight: 670;
+    font-size:24px;
+    color: rgb(1, 67, 1);
+    border-radius: 5px;
+}
+
+.White-span{
+    background-color: rgb(251, 251, 251);
+    text-align: left;
+    padding:5px;
+    font-family: 'Nunito', system-ui, sans-serif ;
+    font-weight: 670;
+    font-size:24px;
+    color: #201f1f;
+    border-radius: 5px;
+}
+
+.white-learn-span{
+    color:white;
+}
+
+.white-learn-span:hover{
+    color:darkgray;
+}
+
+.learn-span:hover{
+    opacity: 0.7;
+}
+

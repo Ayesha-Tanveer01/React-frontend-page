@@ -1,0 +1,73 @@
+.main{
+    width: auto;  
+    display: flex;
+    flex-direction: column;
+}
+
+.services-container {
+    margin-inline: 30px;
+    padding-inline: 25px;
+    width: auto;          
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.amazon{
+    font-family: 'Source Sans 3', system-ui, -apple-system, sans-serif;
+    font-weight: 650;
+}
+
+.dribble {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+}
+
+.hubspot {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 600;
+}
+
+.notion {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 600;
+}
+
+.netflix {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1px;
+}
+
+.zoom {
+  font-family: 'Nunito', system-ui, sans-serif;
+  font-weight: 600;
+}
+
+.service-description{
+    width: auto;  
+    display: flex;
+    flex-direction: row;
+    margin:50px;
+}
+
+.service-heading{
+    background-color: rgb(157, 225, 88);
+    align-items: center;
+    justify-content: center;
+    padding-inline:7px;
+    padding-block: 5px;
+    font-family: 'Nunito', system-ui, sans-serif ;
+    font-weight: 670;
+    font-size:23px;
+    color: rgb(1, 67, 1);
+    border-radius: 5px;
+}
+.service-line{
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+
+.amazon:hover, .dribble:hover, .hubspot:hover, .notion:hover, .netflix:hover, .zoom:hover {
+    opacity: 0.7;
+}

@@ -1,0 +1,55 @@
+.Grey-container{
+    background-color: #f3f3f3;
+    height: 300px;
+    width: 96%;
+    margin-top: 100px;
+    margin-left: 37px;
+    border-radius:25px;
+    display:flex;
+    flex-direction: row;
+}
+
+.Grey-text{
+    height:100%;
+    width: 70%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Grey-img{
+    height:100%;
+    width: 30%;
+}
+
+.Grey-banner-img{
+    width: 100%;            
+    height: 100%;           
+    object-fit: cover; 
+    border-radius:22px;
+}
+
+.proposal-btn{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width:200px;
+  margin-left: 30px;
+}
+.proposal-btn:hover{
+  background-color: white;
+  color: black;
+}
+.heading{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 30px;
+}
+.normal-text{
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: left;
+    padding-left: 30px;
+}
